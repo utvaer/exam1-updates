@@ -2,6 +2,9 @@ import { postsContainer, baseUrl, getPosts } from "./components/getposts.js";
 
 const loadMoreButton = document.querySelector(".load-btn");
 
+
+
+
 /*____________ LOAD MORE BTN ___________*/
 
 loadMoreButton.addEventListener ("click", loadMore);
@@ -12,7 +15,11 @@ function loadMore() {;
         loadMoreButton.style.display = "none";
 }
 
+
+
+
 /*____________ FILTER RESULTS____*/ 
+
 
 const categories = document.querySelectorAll(".category");
 const searchButton = document.querySelector(".search-button");
