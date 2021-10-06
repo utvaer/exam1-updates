@@ -241,7 +241,7 @@ Carousel code by Karl Hawden https://www.youtube.com/watch?v=gor5BvT2z88 , https
   color: #111;
 }
 .post-card {
-  background-color: #e6e6e6;
+  background-color: rgba(230, 230, 230, 0.6);
   max-width: 90%;
   margin: 1em auto;
   border-radius: 4px;
@@ -250,6 +250,7 @@ Carousel code by Karl Hawden https://www.youtube.com/watch?v=gor5BvT2z88 , https
   object-fit: cover;
   margin: 0 auto;
   display: block;
+  width: 100%;
 }
 .post-text {
   padding: 0.5em;
@@ -476,7 +477,6 @@ Carousel code by Karl Hawden https://www.youtube.com/watch?v=gor5BvT2z88 , https
     font-size: 0.9em;
   }
   .post-card-image {
-    width: 100%;
     height: 100px;
   }
   .search {
@@ -629,7 +629,6 @@ Carousel code by Karl Hawden https://www.youtube.com/watch?v=gor5BvT2z88 , https
   }
   .post-card-image {
     height: 50%;
-    width: 200px;
   }
   .blog-aside {
     flex-grow: 1;
