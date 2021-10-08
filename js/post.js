@@ -39,4 +39,14 @@ async function getBlogPost(url) {
 
 getBlogPost(postPageUrl);
 
+// ________________ Handle comments __________
 
+
+/*const commentForm = document.querySelector(".comment-form");
+
+commentForm.addEventListener("submit", submitComment());
+
+function submitComment(event) {
+    event.preventDefault();
+    console.log("hellawww");
+}*/
